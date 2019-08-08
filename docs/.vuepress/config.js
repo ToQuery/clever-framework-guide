@@ -18,7 +18,7 @@ module.exports = {
       {
         text: '组件',
         items: [
-          {text: 'Pbreadcrump', link: '/components/Pbreadcrump/'}
+          {text: 'dao', link: '/components/dao/'}
         ]
       },
       {text: '参考', link: '/refer/'}
