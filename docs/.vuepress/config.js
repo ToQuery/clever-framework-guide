@@ -21,6 +21,7 @@ module.exports = {
           {text: 'dao', link: '/components/dao/'}
         ]
       },
+      {text: '版本说明', link: '/versions/'},
       {text: '参考', link: '/refer/'}
     ],
     sidebar: 'auto',
