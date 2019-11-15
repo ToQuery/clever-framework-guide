@@ -6,6 +6,8 @@ module.exports = {
   description: 'Clever Framework Guide',
   repo: 'ToQuery/clever-framework',
   editLinks: true,
+  base: '/clever-framework/',
+  dest: 'dist',
   docsDir: 'docs',
   editLinkText: '帮助我们改善此页面！',
   head: [
