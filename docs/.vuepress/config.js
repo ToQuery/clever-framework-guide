@@ -2,8 +2,8 @@
  * vue-press config
  */
 module.exports = {
-  title: 'Clever Framework Guide',
-  description: 'Clever Framework Guide',
+  title: 'Clever Framework 手册',
+  description: 'Sping Boot 快速开发框架',
   repo: 'ToQuery/clever-framework',
   editLinks: true,
   base: '/clever-framework/',
@@ -20,9 +20,18 @@ module.exports = {
       {
         text: '组件',
         items: [
-          {text: 'dao', link: '/components/dao/'}
+          {text: '业务数据CRUD', link: '/components/crud/'},
+          {text: '操作日志', link: '/components/biz-log/'},
+          {text: '系统管理', link: '/components/system/'},
+          {text: '缓存', link: '/components/cache/'},
+          {text: 'GRpc', link: '/components/grpc/'},
+          {text: 'Minio文件存储', link: '/components/minio/'},
+          {text: '多数据源', link: '/components/datascource/'},
+          {text: '请求响应加密', link: '/components/secret/'}
         ]
       },
+      {text: '前端框架', link: '/front/'},
+      {text: '代码生成器', link: '/builder/'},
       {text: '版本说明', link: '/versions/'},
       {text: '参考', link: '/refer/'}
     ],

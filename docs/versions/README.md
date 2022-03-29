@@ -4,6 +4,8 @@ sidebar: auto
 
 # 版本记录
 
+## [v1.0.8](https://github.com/ToQuery/clever-framework/tree/v1.0.8) (2022-07-01)
+
 ## [v1.0.5](https://github.com/ToQuery/clever-framework/tree/v1.0.5) (2019-07-01)
 
 ### New Features:
