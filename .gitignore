@@ -1,4 +1,7 @@
 package-lock.json
+.idea/
+docs/.vitepress/dist
+docs/.vitepress/cache
 
 # Logs
 logs

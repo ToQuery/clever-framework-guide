@@ -1,20 +1,18 @@
-/**
- * vue-press config
- */
-module.exports = {
-  title: 'Clever Framework 手册',
-  description: 'Clever Framework 快速开发框架',
-  repo: 'ToQuery/clever-framework',
-  editLinks: true,
-  base: '/clever-framework/',
-  dest: 'dist',
-  docsDir: 'docs',
-  editLinkText: '帮助我们改善此页面！',
-  head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
-  ],
+import { defineConfig } from 'vitepress'
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  lang: 'zh-CN',
+  title: "Clever Framework 手册",
+  description: "Clever Framework 快速开发框架",
   themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
     nav: [
+      { text: '首页', link: '/' },
+      { text: '指南', link: '/guide/' }
+    ],
+
+    sidebar: [
       {text: '首页', link: '/'},
       {text: '指南', link: '/guide/'},
       {
@@ -35,7 +33,9 @@ module.exports = {
       {text: '版本说明', link: '/versions/'},
       {text: '参考', link: '/refer/'}
     ],
-    sidebar: 'auto',
-    lastUpdated: 'Last Updated'
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    ]
   }
-}
+})
