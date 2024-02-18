@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/ToQuery/clever-framework-guide#readme",
   "devDependencies": {
-    "less": "^3.8.1",
+    "less": "^4.2.0",
     "less-loader": "^12.2.0",
     "vuepress": "^1.9.7"
   }
