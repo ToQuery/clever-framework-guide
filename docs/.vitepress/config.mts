@@ -5,6 +5,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: "Clever Framework 手册",
   description: "Clever Framework 快速开发框架",
+  outDir: '../dist',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
