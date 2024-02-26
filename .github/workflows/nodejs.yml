@@ -30,7 +30,7 @@ jobs:
       with:
         target_branch: gh-pages
         build_dir: dist
-        repo: ToQuery/clever-framework
+        repo: clever-framework/clever-framework
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
