@@ -24,13 +24,13 @@ jobs:
     - name: npm build, and test
       run: |
         npm run docs:build --if-present
-    - name: GitHub Pages Deploy
-      # uses: maxheld83/ghpages@v0.1.2
-      uses: crazy-max/ghaction-github-pages@v1
-      with:
-        target_branch: gh-pages
-        build_dir: dist
-        repo: clever-framework/clever-framework
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+#    - name: GitHub Pages Deploy
+#      # uses: maxheld83/ghpages@v0.1.2
+#      uses: crazy-max/ghaction-github-pages@v1
+#      with:
+#        target_branch: gh-pages
+#        build_dir: dist
+#        repo: clever-framework/clever-framework
+#      env:
+#        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#        GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
