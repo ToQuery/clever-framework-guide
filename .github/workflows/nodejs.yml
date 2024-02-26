@@ -18,10 +18,10 @@ jobs:
       uses: actions/setup-node@v4.0.2
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm install vuepress
+    - name: npm install
       run: |
-        npm install -g vuepress
-    - name: npm install, build, and test
+        npm install
+    - name: npm build, and test
       run: |
         npm run docs:build --if-present
     - name: GitHub Pages Deploy
