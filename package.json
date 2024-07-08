@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/ToQuery/clever-framework-guide#readme",
   "devDependencies": {
-    "vitepress": "1.2.3"
+    "vitepress": "1.3.0"
   }
 }
